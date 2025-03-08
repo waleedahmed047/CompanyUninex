@@ -15,7 +15,6 @@ import LightModeIcon from "../../assets/logo/day.svg";
 import DarkModeIcon from "../../assets/logo/night.png";
 import Logo from "../../assets/logo/Logo.svg";
 import ProfileImage from "../../assets/logo/profile.svg";
-import LogoutImage from "../../assets/logo/logoutIcon.svg";
 import SearchLogo from "../../assets/logo/Magnifer.svg";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
