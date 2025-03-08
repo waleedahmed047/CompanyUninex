@@ -1,0 +1,126 @@
+.navbar {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-shadow: none !important;
+}
+
+.menu-icon {
+  display: none !important;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 18%;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+}
+
+.logo {
+  height: 40px;
+}
+
+.navbar-toolbar {
+  display: flex;
+  flex-direction: row;
+}
+.nav-content-desktop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-selectedTab {
+  font-weight: 600 !important;
+  font-size: 24px !important;
+}
+
+.navbar-action-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-searchbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  border-radius: 20px !important;
+  padding: 10px 15px !important;
+  width: 300px;
+  background-color: var(--content-bg-color);
+}
+
+.navbar-searchbar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+}
+
+.theme-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-colorr) !important;
+  background-color: var(--content-bg-color) !important;
+  border: 1px solid var(--border-color) !important;
+  padding: 10px 15px !important;
+  cursor: pointer;
+  border-radius: 20px !important;
+  transition: background-color 0.3s ease;
+  text-transform: none  !important;
+  width: fit-content;
+}
+
+.theme-toggle-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.logout-button {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background-color: transparent;
+  gap: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: var(--text-color) !important;
+  text-transform: none !important;
+}
+
+.navbar-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block !important;
+  }
+  .nav-content-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-icon {
+    display: block;
+  }
+  .nav-content-desktop {
+    display: none;
+  }
+}

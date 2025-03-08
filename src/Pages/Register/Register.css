@@ -1,0 +1,12 @@
+.input-fields-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.input-fields-section p{
+    font-size: 14px;
+    color: var(--border-color);
+    font-weight: 500;
+    margin: 0px;
+}

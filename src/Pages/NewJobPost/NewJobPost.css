@@ -1,0 +1,169 @@
+.form-container {
+    margin: auto;
+    padding: 10px;
+    background: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h3 {
+    margin: 0px !important;
+    color: var(--text-color) !important;
+    font-size: 18px !important;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group p {
+    color: var(--text-color);
+    margin-top: 15px !important;
+}
+
+.row {
+    display: flex;
+    gap: 15px !important;
+    margin-top: 20px !important;
+}
+
+.row>* {
+    flex: 1;
+}
+
+.add-button {
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.post-button {
+    background-color: var(--primary-color) !important;
+    color: white;
+    box-shadow: none !important;
+    width: 200px;
+}
+
+.add-question-button {
+    background-color: var(--primary-color) !important;
+    color: white;
+    box-shadow: none !important;
+
+}
+
+.post-button:hover {
+    background-color: var(--primary-color);
+}
+
+.divider-jobpost {
+    margin: 20px 0px !important;
+    border-color: var(--text-color) !important;
+}
+
+.form-container {
+    margin: auto;
+    padding: 10px;
+    background: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General Styling for Headings and Paragraphs */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px !important;
+    color: var(--text-color) !important;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group p {
+    color: var(--text-color);
+}
+
+/* Rows */
+.row {
+    display: flex;
+    gap: 15px !important;
+    margin-top: 20px !important;
+}
+
+.row>* {
+    flex: 1;
+}
+
+/* Buttons */
+.add-button {
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.post-button {
+    background-color: var(--primary-color) !important;
+    color: white;
+}
+
+/* Material-UI TextField and Select */
+.MuiOutlinedInput-root {
+    color: var(--text-color) !important; /* Text Color */
+    border-color: var(--text-color) !important; /* Border Color */
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: var(--text-color) !important; /* Default Border */
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: var(--text-color) !important; /* Hover Border */
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: var(--text-color) !important; /* Focused Border */
+}
+
+/* Placeholder Text */
+.MuiInputBase-input::placeholder {
+    color: var(--text-color) !important;
+    opacity: 0.7;
+}
+
+/* Input Label */
+.MuiInputLabel-root {
+    color: var(--text-color) !important;
+}
+
+/* FormControl */
+.MuiFormControl-root {
+    color: var(--text-color) !important;
+}
+
+/* Menu Items */
+.MuiMenuItem-root {
+    color: var(--text-color) !important;
+}
+
+/* Radio Group */
+.MuiFormControlLabel-label {
+    color: var(--text-color) !important;
+}
+
+/* Divider */
+.divider-jobpost {
+    background-color: var(--text-color) !important;
+}
+
+/* Modal Styling */
+.modal-box {
+    background: var(--bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.add-question-button {
+    background-color: var(--primary-color) !important;
+    color: white;
+}
+

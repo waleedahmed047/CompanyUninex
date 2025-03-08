@@ -1,0 +1,10 @@
+.section-profile-main{
+    background-color: var(--bg-color);
+    border-radius: 20px;
+}
+.services-main{
+    background-color: var(--bg-color);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,64 @@
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: var(--about-paragraph-color);
+  }
+
+  .about-text {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: var(--about-paragraph-color);
+    line-height: 1.5;
+    white-space: pre-wrap;
+  }
+  
+  .read-more-button {
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .read-more-button:hover {
+    background-color: var(--primary-color);
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modal-actions button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .modal-actions button:hover {
+    background-color: #0056b3;
+  }
+  

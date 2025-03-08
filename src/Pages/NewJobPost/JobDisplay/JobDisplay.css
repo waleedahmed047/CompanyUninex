@@ -1,0 +1,84 @@
+.job-container {
+    margin: auto;
+    padding: 20px;
+    background: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .job-title{
+    font-size: 18px !important;
+    color: var(--text-color);
+  }
+  .company-name{
+    font-size: 13px !important;
+    color: var(--text-color);
+  }
+  .job-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    font-size: 40px;
+    color: #1976d2;
+  }
+  
+  .urgent-badge {
+    margin-left: auto;
+    font-size: 12px !important;
+    font-weight: bold;
+    color: var(--text-color) !important;
+    border: 1px solid #FC8721 !important;
+    background-color: transparent !important;
+  }
+  
+  .views {
+    color: gray;
+    font-size: 14px !important;
+  }
+  
+  .edit-button {
+    margin-left: 10px;
+    box-shadow: none !important;
+    background-color: var(--primary-color) !important;
+  }
+  
+  .job-info {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .job-info-chip{
+    color: var(--text-color) !important;
+  }
+  .company-instructions{
+    margin-top: 10px !important;
+    color: var(--text-color) !important;
+    font-size: 18px !important;
+  }
+  .ullio{
+    color: var(--text-color) !important;
+  }
+  .divider {
+    margin: 20px 0;
+  }
+  
+  .description {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .responsibilities, .qualifications {
+    padding-left: 20px;
+    color: #333;
+  }
+  
+  .date {
+    margin-left: auto;
+    font-size: 14px;
+    color: gray;
+  }
+  

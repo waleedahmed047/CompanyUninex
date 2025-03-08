@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Faizi Ahmed",
+      "role": "Frontend Developer",
+      "image": "https://i.pravatar.cc/100?img=1",
+      "contractType": "Part Time / Monthly",
+      "duration": "06 Months",
+      "amount": "1000$ USD",
+      "status": "Active",
+      "contractTitle": "Smart Home Automation System",
+      "features": [
+        "Remote control of lights, thermostat, and security cameras.",
+        "Integration with voice assistants like Amazon Alexa and Google Home.",
+        "Real-time energy consumption monitoring.",
+        "Automated routines and scheduling.",
+        "User-friendly mobile and web interfaces."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ayesha Khan",
+      "role": "Backend Developer",
+      "image": "https://i.pravatar.cc/100?img=2",
+      "contractType": "Full Time",
+      "duration": "12 Months",
+      "amount": "2000$ USD",
+      "status": "Pending",
+      "contractTitle": "E-commerce Platform Development",
+      "features": [
+        "Secure user authentication and authorization.",
+        "Payment gateway integration.",
+        "Scalable product catalog management.",
+        "Optimized database for high performance.",
+        "API development for frontend integration."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bilal Saeed",
+      "role": "UI/UX Designer",
+      "image": "https://i.pravatar.cc/100?img=3",
+      "contractType": "Freelance",
+      "duration": "03 Months",
+      "amount": "800$ USD",
+      "status": "Completed",
+      "contractTitle": "Mobile App UI/UX Design",
+      "features": [
+        "User-friendly and intuitive design.",
+        "Wireframing and prototyping.",
+        "Responsive design for multiple devices.",
+        "Accessibility and usability improvements.",
+        "High-fidelity design mockups."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Zain Raza",
+      "role": "DevOps Engineer",
+      "image": "https://i.pravatar.cc/100?img=4",
+      "contractType": "Contract",
+      "duration": "09 Months",
+      "amount": "1500$ USD",
+      "status": "Active",
+      "contractTitle": "Cloud Infrastructure Setup",
+      "features": [
+        "CI/CD pipeline automation.",
+        "Docker and Kubernetes deployment.",
+        "AWS cloud service integration.",
+        "Infrastructure monitoring and alerts.",
+        "Security and compliance management."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sana Malik",
+      "role": "Full Stack Developer",
+      "image": "https://i.pravatar.cc/100?img=5",
+      "contractType": "Remote",
+      "duration": "06 Months",
+      "amount": "1200$ USD",
+      "status": "Pending",
+      "contractTitle": "HR Management System",
+      "features": [
+        "Employee database management.",
+        "Attendance and payroll automation.",
+        "Admin and user dashboards.",
+        "Role-based access control.",
+        "Reports and analytics generation."
+      ]
+    }
+  ]
+  

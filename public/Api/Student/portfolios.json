@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "E-commerce Platform",
+      "description": "A full-featured e-commerce platform with multiple vendor support.",
+      "image": "https://essential-addons.com/wp-content/uploads/2023/12/image-2.jpeg",
+      "technologies": ["React", "Node.js", "MongoDB", "Express"],
+      "link": "https://myecommerce.com"
+    },
+    {
+      "id": 2,
+      "title": "Payroll Management System",
+      "description": "A payroll system that automates salary calculations and tax deductions.",
+      "image": "https://w3layouts.b-cdn.net//wp-content/uploads/2023/10/top-10-personal-website-templates-1.jpg",
+      "technologies": ["React Native", "Firebase", "Redux"],
+      "link": "https://mypayrollapp.com"
+    },
+    {
+      "id": 3,
+      "title": "Loan Management App",
+      "description": "A mobile app to manage and track loan payments efficiently.",
+      "image": "https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1694265422/catalog/1700496010274402304/mwaxgmcwmxlqgjwvlamz.jpg",
+      "technologies": ["React Native", "GraphQL", "MongoDB"],
+      "link": "https://loanmanagement.com"
+    },
+    {
+      "id": 4,
+      "title": "News Aggregator",
+      "description": "A news app that collects and categorizes news articles from multiple sources.",
+      "image": "https://codehalweb.com/wp-content/uploads/2023/05/thumbnail-19.jpg",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "link": "https://newsaggregator.com"
+    },
+    {
+      "id": 5,
+      "title": "Project Management System",
+      "description": "A platform for teams to manage and collaborate on projects.",
+      "image": "https://colorlib.com/wp/wp-content/uploads/sites/2/videograph-free-template-353x278.jpg",
+      "technologies": ["Vue.js", "Django", "PostgreSQL"],
+      "link": "https://projectmanager.com"
+    }
+  ]
+  

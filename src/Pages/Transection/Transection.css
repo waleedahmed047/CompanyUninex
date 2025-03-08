@@ -1,0 +1,14 @@
+.transactions-header-top{
+    background-color: #00CEF30D;
+    color: var(--primary-color) !important;
+}
+.transactions-header{
+    color: var(--primary-color) !important;
+}
+.transaction-detail-button{
+    border: 1px solid #A1A1A1 !important;
+    color: #A1A1A1 !important;
+}
+.contract-table-data{
+    color: var(--text-color) !important;
+}

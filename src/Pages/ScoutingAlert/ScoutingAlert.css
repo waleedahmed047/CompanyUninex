@@ -1,0 +1,77 @@
+.scouting-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.scouting-alert-dropdowns-section {
+  border: 2px dashed rgb(219, 219, 219);
+  background-color: var(--bg-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 95%;
+}
+.scouting-alert-dropdowns {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.form-control-scouting {
+  width: 200px;
+}
+/* Custom styling for the dropdown */
+.form-control-scouting {
+  min-width: 150px !important;
+  font-size: 12px !important;
+}
+
+/* Customize the dropdown border and size */
+.form-control-scouting .MuiOutlinedInput-root {
+  /* border: 1px solid var(--border-color) !important; */
+  border-radius: 6px !important;
+  font-size: 12px !important;
+  min-height: 30px !important;
+  padding: 2px 8px !important;
+}
+
+/* Change label color and font size */
+.form-control-scouting .MuiInputLabel-root {
+  color: var(--border-color) !important;
+  font-size: 12px !important;
+}
+
+/* Change dropdown options */
+.form-control-scouting .MuiMenuItem-root {
+  font-size: 12px !important;
+  padding: 6px 12px !important;
+}
+
+/* Hover effect */
+.form-control-scouting
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary-color) !important;
+}
+
+/* Focus effect */
+.form-control-scouting
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary-color) !important;
+}
+
+.scouting-alert-dropdowns-section h1 {
+  color: var(--text-color);
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.scouting-alert-list-section {
+  border-radius: 10px;
+  border: 2px dashed rgb(219, 219, 219);
+  width: 96%;
+  padding: 10px;
+  background-color: var(--bg-color);
+}

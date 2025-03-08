@@ -1,0 +1,167 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 100%;
+}
+
+.dashboard-left {
+  display: flex;
+  flex-direction: column !important;
+  gap: 10px;
+  overflow-y: auto;
+  height: 89vh;
+}
+
+.dashboard-left::-webkit-scrollbar {
+  width: 0px;
+}
+
+.dashboard-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.profileView-graph {
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  border: 2px dashed rgb(155, 155, 155);
+  padding: 16px;
+}
+
+.user-by-country {
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  border: 2px dashed rgb(155, 155, 155);
+  padding: 16px;
+}
+
+.scouting-cards {
+  border-radius: 10px;
+}
+
+.dashboard-job-apply {
+  border: 1px solid var(--primary-color);
+  padding: 15px;
+  border-radius: 10px !important;
+  background-color: var(--bg-color);
+}
+
+.dashboard-right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.dashboard-job-apply-button {
+  width: 100%;
+  /* color: var(--text-color) !important; */
+  font-weight: 600 !important;
+  background-color: var(--primary-color) !important;
+  box-shadow: none !important;
+}
+
+.dashboard-insight-lineprogress-bottom h2{
+  color: var(--text-color);
+  font-size: 16px !important;
+
+}
+
+.dashboard-insight-lineprogress h1 {
+  color: var(--text-color) !important;
+  font-size: 18px;
+  margin: 0%;
+}
+.dashboard-insight-lineprogress-labels p{
+  font-size: 12px;
+  color: var(--text-color);
+  margin-bottom: 2px !important;
+
+}
+.dashboard-insight-lineprogress {
+  background-color: var(--bg-color);
+  padding: 15px 10px !important;
+  border-radius: 10px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.dashboard-insight-lineprogress-bottom{
+  background-color: var(--bg-color);
+  padding: 15px 10px;
+  border-radius: 10px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.dashboard-insight-lineprogress-job-posts{
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+}
+
+.dashboard-job-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.dashboard-job-posts h1 {
+  margin: 0px;
+  font-size: 16px;
+}
+
+.dashboard-job-posts p {
+  margin: 0px;
+  font-size: 12px;
+  color: #6e7577;
+}
+
+.dashboard-job-post-profile {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.dashboard-jobs-post-view-profile {
+  color: #32bf74 !important;
+  font-size: 10px !important;
+  margin-top: 10px !important;
+  text-transform: none !important;
+}
+
+.dashboard-applicatins-matched p {
+  font-size: 8px;
+  color: white;
+  text-align: center;
+  background-color: green !important;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.viewMore-dashboard-applications {
+  background-color: var(--view-more-color) !important;
+  color: var(--primary-color) !important;
+  font-weight: 600 !important;
+}
+
+@media (max-width: 480px) {
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .dashboard-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashboard-left {
+    width: 100%;
+  }
+
+  .dashboard-right {
+    width: 100%;
+    margin-top: 16px;
+  }
+}

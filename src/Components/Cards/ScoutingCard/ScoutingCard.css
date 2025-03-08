@@ -1,0 +1,126 @@
+.scouting-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.scouting-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.scouting-card-profile {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoutting-image-profile {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.scouting-card-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.scouting-card-data h3 {
+  margin: 0px;
+  color: var(--card-title);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.scouting-card-data p {
+  margin: 0px;
+  color: var(--card-subtitle);
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.scouting-card-upper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  border: none !important;
+  margin-bottom: 5px;
+}
+
+.scouting-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between !important;
+  border: none !important;
+  width: 400px;
+}
+
+.scouting-chip {
+  background-color: var(--scouting-chip) !important;
+  border: 1px solid var(--scouting-chip-border) !important;
+  color: var(--text-color) !important;
+}
+
+.scouting-chip-top-match {
+  background-color: var(--scouting-chip-border) !important;
+  font-weight: 600;
+}
+
+.scouting-action-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scoutting-view-profile-button {
+  color: var(--scouting-chip-border) !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+}
+
+.scoutting-view-profile-button img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.scouting-follower-button {
+  color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
+  padding: 5px 15px !important;
+  text-transform: none !important;
+}
+.scouting-message-button {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  padding: 5px 15px !important;
+  text-transform: none !important;
+}
+
+.scouting-buttons-all {
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .scouting-tags {
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+  }
+}

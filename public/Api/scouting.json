@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "profilePic": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
+    "name": "John Doe",
+    "status": "Active",
+    "country": "USA",
+    "degree": "BSc Computer Science",
+    "gpa": 3.8
+  },
+  {
+    "id": 2,
+    "profilePic": "https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ=",
+    "name": "Jane Smith",
+    "status": "Inactive",
+    "country": "Canada",
+    "degree": "MBA Finance",
+    "gpa": 3.9
+  },
+  {
+    "id": 3,
+    "profilePic": "https://randomuser.me/api/portraits/men/32.jpg",
+    "name": "Robert Brown",
+    "status": "Active",
+    "country": "UK",
+    "degree": "BSc Data Science",
+    "gpa": 3.7
+  },
+  {
+    "id": 4,
+    "profilePic": "https://randomuser.me/api/portraits/women/44.jpg",
+    "name": "Emily Johnson",
+    "status": "Active",
+    "country": "Australia",
+    "degree": "BBA Marketing",
+    "gpa": 3.6
+  },
+  {
+    "id": 5,
+    "profilePic": "https://randomuser.me/api/portraits/men/50.jpg",
+    "name": "Michael Lee",
+    "status": "Inactive",
+    "country": "Germany",
+    "degree": "MSc Artificial Intelligence",
+    "gpa": 3.9
+  },
+  {
+    "id": 6,
+    "profilePic": "https://randomuser.me/api/portraits/women/68.jpg",
+    "name": "Sophia Martinez",
+    "status": "Active",
+    "country": "Spain",
+    "degree": "BSc Cybersecurity",
+    "gpa": 3.5
+  },
+  {
+    "id": 7,
+    "profilePic": "https://randomuser.me/api/portraits/men/75.jpg",
+    "name": "David Wilson",
+    "status": "Active",
+    "country": "France",
+    "degree": "MSc Cloud Computing",
+    "gpa": 3.8
+  },
+  {
+    "id": 8,
+    "profilePic": "https://randomuser.me/api/portraits/women/82.jpg",
+    "name": "Olivia Taylor",
+    "status": "Inactive",
+    "country": "Italy",
+    "degree": "BSc Business Analytics",
+    "gpa": 3.7
+  },
+  {
+    "id": 9,
+    "profilePic": "https://randomuser.me/api/portraits/men/29.jpg",
+    "name": "William Anderson",
+    "status": "Active",
+    "country": "Netherlands",
+    "degree": "MBA International Business",
+    "gpa": 3.6
+  },
+  {
+    "id": 10,
+    "profilePic": "https://randomuser.me/api/portraits/women/12.jpg",
+    "name": "Ava Hernandez",
+    "status": "Active",
+    "country": "Brazil",
+    "degree": "MSc Digital Marketing",
+    "gpa": 3.9
+  }
+]

@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "name": "John Doe",
+      "post_on": "2024-01-15",
+      "rating": 4.8,
+      "review": "Excellent service! Highly recommended for quality work and professionalism."
+    },
+    {
+      "id": 2,
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "name": "Sarah Smith",
+      "post_on": "2024-02-05",
+      "rating": 4.5,
+      "review": "Very satisfied with the service. Quick response and great communication."
+    },
+    {
+      "id": 3,
+      "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "name": "Michael Johnson",
+      "post_on": "2024-03-10",
+      "rating": 5.0,
+      "review": "Absolutely fantastic experience! Would definitely work with them again."
+    }
+  ]
+  

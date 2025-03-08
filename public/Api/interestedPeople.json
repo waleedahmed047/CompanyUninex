@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Hb5xzFZJCTW4cMqmPwsgfw-gILUV7QevvQ&s",
+        "name": "John Doe",
+        "role": "Frontend Developer",
+        "location": "New York",
+        "detail": "Passionate frontend developer with 5 years of experience in React and Vue.js.",
+        "phone": "+1 555-1234",
+        "email": "john.doe@example.com",
+        "resume": "/resumes/john_doe_resume.pdf",
+        "age": 27,
+        "salary": 1000
+    },
+    {
+        "id": 2,
+        "profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvPjv1lHEIpzgDk_e3Sm-e4EVOzggYdb5aHA&s",
+        "name": "Jane Smith",
+        "role": "Backend Developer",
+        "location": "London",
+        "detail": "Experienced in Node.js, GraphQL, and database optimizations with PostgreSQL.",
+        "phone": "+44 20 7946 0958",
+        "email": "jane.smith@example.com",
+        "resume": "/resumes/jane_smith_resume.pdf",
+        "age": 30,
+        "salary": 1500
+    },
+    {
+        "id": 3,
+        "profile": "https://newprofilepic.photo-cdn.net//assets/images/article/profile.jpg?90af0c8",
+        "name": "Mike Johnson",
+        "role": "UI/UX Designer",
+        "location": "Berlin",
+        "detail": "Creative designer specializing in Figma, Adobe XD, and user experience research.",
+        "phone": "+49 30 1234 5678",
+        "email": "mike.johnson@example.com",
+        "resume": "/resumes/mike_johnson_resume.pdf",
+        "age": 25,
+        "salary": 1200
+    }
+]

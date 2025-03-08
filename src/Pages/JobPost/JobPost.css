@@ -1,0 +1,207 @@
+.job-posts-container {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.job-post-card {
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.job-post-header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.job-post-info {
+  margin-left: 10px;
+}
+
+.job-post-info h3 {
+  font-size: 16px;
+  margin: 0px;
+  color: var(--text-color);
+}
+.job-post-side-title {
+  color: var(--text-color);
+  font-size: 12px !important;
+}
+.job-post-info p {
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 5px;
+  color: var(--text-color);
+}
+.studentProfile-right-header h1 {
+  margin: 0px;
+  font-size: 18px !important;
+  color: var(--text-color);
+}
+.job-post-urgent {
+  margin-left: 30px;
+}
+
+.job-post-urgent p {
+  font-size: 10px;
+  margin: 0px;
+  padding: 5px 10px;
+  border: 2px solid #fc8721;
+  font-weight: 600 !important;
+}
+
+.job-post-stats-mobile {
+  margin-left: 50px;
+}
+
+.job-post-stats-mobile-button {
+  margin-left: auto;
+}
+
+.job-post-stat-view {
+  margin-right: auto;
+  box-shadow: none !important;
+  background-color: var(--primary-color) !important;
+  padding: 4px 10px !important;
+  text-transform: none !important;
+}
+
+.job-post-stats-mobile span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6e7577;
+}
+
+.job-post-stats-mobile p {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.job-post-action-buttons {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.job-post-details {
+  margin-top: 20px;
+}
+
+.job-post-details p {
+  margin: 0px;
+}
+
+.job-post-stats {
+  margin-top: 10px;
+}
+
+.job-post-stats p {
+  margin: 5px 0;
+}
+
+.job-posts-header h1 {
+  font-size: 22px;
+  margin: 0px;
+  color: var(--text-color);
+}
+
+.job-posts-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.job-post-button {
+  background-color: var(--primary-color) !important;
+  color: white;
+  padding: 7px 10px !important;
+  border: none;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  box-shadow: none !important;
+  text-transform: none !important;
+}
+
+.job-post-action-button {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.job-post-action-button p {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.job-post-action-button strong {
+  color: #6e7577;
+  font-weight: 600;
+}
+
+.job-posts-left {
+  width: 75%;
+  height: 85vh;
+  overflow: auto;
+}
+.job-posts-left::-webkit-scrollbar {
+  width: 0px;
+}
+
+.job-posts-right {
+  width: 24%;
+  height: 85vh;
+  overflow: auto;
+}
+.job-posts-right::-webkit-scrollbar {
+  width: 0px;
+}
+.intrested-person-view-application {
+  color: var(--scouting-chip-border);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 10px;
+}
+.total-intrested-persons {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.studentProfile-right-subHeader {
+  border-radius: 10px;
+}
+.studentProfile-right-subHeader h1 {
+  color: var(--text-color);
+  margin: 0px !important;
+  font-size: 18px !important;
+}
+
+.star-rating {
+  color: var(--text-color);
+}
+
+.student-name {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: var(--text-color);
+}
+
+.student-status {
+  font-size: 12px !important;
+  color: var(--text-color);
+}

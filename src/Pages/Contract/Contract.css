@@ -1,0 +1,10 @@
+.table-container{
+    background-color: var(--bg-color);
+}
+.contracts-header b{
+    color: #00CEF3;
+}
+.contract-detail-button{
+    border: 1px solid #CBD4DF !important;
+    color: silver !important;
+}

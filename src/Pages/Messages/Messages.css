@@ -1,0 +1,204 @@
+.chat-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: var(--bg-color);
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.chat-header-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-header-profile h3 {
+  font-size: 15px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+.chats-of-all {
+  font-size: 12px;
+}
+.chat-members-name {
+  font-size: 20px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+.member-name-messages {
+  font-size: 12px;
+  color: var(--text-color);
+}
+.chat-header-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.chat-contract-button {
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+.chat-messages-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: start;
+  border-radius: 10px;
+}
+
+.chat-left-section {
+  border-radius: 10px;
+  width: 70%;
+}
+
+.chat-right-section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.chat-right-section-upper {
+  background-color: var(--bg-color);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.chat-right-section-upper h1 {
+  margin: 0px;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.chat-default-page {
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 10px;
+  height: 83vh;
+  overflow: auto;
+}
+.chat-default-page::-webkit-scrollbar {
+  width: 0px;
+}
+
+.chat-default-page-members {
+  background-color: var(--bg-color);
+  min-height: 600px;
+}
+
+.chat-default-page-search {
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid var(--card-titl-color);
+  padding: 15px 0px;
+  color: var(--text-color);
+}
+.chat-right-page-bottom {
+  background-color: var(--bg-color);
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 66vh;
+  overflow: auto;
+  scrollbar-width: none;
+  border-radius: 10px;
+}
+
+.chat-right-bottom-list {
+  width: 100%;
+}
+
+.chat-member-avatar-member {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.chat-member-avatar-member:hover {
+  background-color: rgb(248, 253, 255);
+  cursor: pointer;
+}
+
+.right-chat-bottom-lists {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.follow-button-click {
+  border: none !important;
+}
+
+.chat-all-chats {
+  background-color: var(--bg-color);
+  height: 61vh !important;
+  overflow: auto;
+  scrollbar-width: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.chat-all-chats p {
+  color: var(--text-color);
+}
+
+.chat-senting-section {
+  background-color: var(--bg-color);
+  padding: 1px 10px;
+  border-radius: 10px !important;
+}
+.chat-senting-section input {
+  width: 100%;
+  border: none !important;
+  background-color: transparent;
+  outline: none;
+  color: var(--text-color) !important;
+}
+.sending-message-input {
+  background-color: transparent;
+  border-radius: 5px !important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box-messages {
+  background-color: var(--search-background);
+  border-radius: 5px;
+}
+.search-box-messages input {
+  border: none !important;
+  background-color: transparent;
+  outline: none;
+  color: var(--text-color) !important;
+}
+
+.search-box-messages .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: var(--text-color) !important;
+}
+.search-box-messages .MuiInputBase-input {
+  color: var(--text-color) !important;
+}
+.search-box-messages .MuiInputBase-input {
+  color: var(--text-color) !important;
+}
+
+.search-box-messages .MuiInputBase-input::placeholder {
+  color: gray !important;
+  opacity: 1;
+}

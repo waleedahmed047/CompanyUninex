@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh4B5rxKwG5ce-sS1UBdkx586i9lIevtbiCg&s",
+      "following": true,
+      "messages": [
+        { "text": "Hey, how are you?", "sender": "John" },
+        { "text": "I'm good, what about you?", "sender": "me" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "avatar": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?cs=srgb&dl=pexels-andrewperformance1-697509.jpg&fm=jpg",
+      "following": false,
+      "messages": [
+        { "text": "Hello!", "sender": "Jane" },
+        { "text": "Hi, how’s it going?", "sender": "me" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Alex Johnson",
+      "avatar": "https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "following": true,
+      "messages": [
+        { "text": "What’s up?", "sender": "Alex" },
+        { "text": "Not much, just working on a project.", "sender": "me" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D",
+      "following": false,
+      "messages": [
+        { "text": "Hey there!", "sender": "Emily" },
+        { "text": "Hi Emily, what's up?", "sender": "me" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "avatar": "https://plus.unsplash.com/premium_photo-1689977968861-9c91dbb16049?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D",
+      "following": true,
+      "messages": [
+        { "text": "Are you coming to the meeting?", "sender": "Michael" },
+        { "text": "Yes, I’ll be there in 10 minutes.", "sender": "me" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sarah Wilson",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D",
+      "following": false,
+      "messages": [
+        { "text": "Let’s catch up soon!", "sender": "Sarah" },
+        { "text": "Sure, when are you free?", "sender": "me" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "David Martinez",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D",
+      "following": true,
+      "messages": [
+        { "text": "Good morning!", "sender": "David" },
+        { "text": "Good morning! How’s your day?", "sender": "me" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Laura White",
+      "avatar": "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D",
+      "following": false,
+      "messages": [
+        { "text": "Long time no see!", "sender": "Laura" },
+        { "text": "Yeah! How have you been?", "sender": "me" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Chris Taylor",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D",
+      "following": true,
+      "messages": [
+        { "text": "Let’s meet this weekend.", "sender": "Chris" },
+        { "text": "Sounds good! Where?", "sender": "me" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Olivia Hernandez",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fHww",
+      "following": false,
+      "messages": [
+        { "text": "Did you watch the game last night?", "sender": "Olivia" },
+        { "text": "Yes! It was amazing!", "sender": "me" }
+      ]
+    }
+  ]
+  

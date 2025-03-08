@@ -1,0 +1,87 @@
+/* ApplicationModal.css */
+.application-modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.application-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.application-profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+}
+
+.application-avatar {
+    width: 80px;
+    height: 80px;
+}
+
+.application-divider {
+    margin: 16px 0;
+}
+
+.application-contract-sections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.application-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.application-resume,
+.application-info {
+    margin-top: 8px;
+}
+
+.application-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.application-view-title {
+    font-size: 12px;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.application-contract-detail {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.application-review-message-button {
+    background-color: var(--scouting-chip-border) !important;
+    color: white !important;
+    width: 200px;
+}
+.application-review-follow-button {
+    border:1px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+    width: 200px;
+}
+.resume-download{
+    background-color: #6E75771A !important;
+    color: black !important;
+    width: 100% !important;
+}

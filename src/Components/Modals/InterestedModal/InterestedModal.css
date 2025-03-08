@@ -1,0 +1,8 @@
+.intrested-people-view-more{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #161C24 !important;
+    color: var(--primary-color) !important;
+    font-weight: bold;
+    padding: 10px;
+}

@@ -1,0 +1,78 @@
+.contractor-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contractor-modal h3{
+    margin: 0px;
+    font-size: 12px;
+     font-weight: 400;
+}
+.contractor-header-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    border: 2px solid #00CEF3;
+    padding: 10px 30px;
+    background-color: #00CEF31A;
+    align-items: center ;
+}
+.contractor-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contractor-info h2{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.contractor-info p{
+    margin: 0px;
+    font-size: 10px;
+    color: #6E7577;
+    font-weight: 400;
+}
+.contract-info-bottom h3{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.contract-info-instruction{
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #00CEF3;
+    background-color: #00CEF31A;
+    border-radius: 5px;
+}
+.contract-info-instruction p{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.contract-description-title{
+    margin: 0px;
+    font-size: 14px;
+    color: #00CEF3;
+    margin-top: 10px;
+    text-align: start;
+}
+.contract-description-all p{
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: start;
+}
+.contract-description-all{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: start;
+}

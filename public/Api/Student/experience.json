@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "company_name": "Axis Technologies",
+      "post": "Full Stack Developer",
+      "company_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsbl_Ru6A-tD9tto1SWmiSChg5mmOFVHrgQw&s",
+      "from": "2023",
+      "to": "Present",
+      "location": "Islamabad, Pakistan"
+    },
+    {
+      "id": 2,
+      "company_name": "Google",
+      "post": "Software Engineer",
+      "company_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiEndPkpxU-FDOQK0acJ6iuFECTI914xOelQ&s",
+      "from": "2021",
+      "to": "2023",
+      "location": "Mountain View, USA"
+    },
+    {
+      "id": 3,
+      "company_name": "Microsoft",
+      "post": "Frontend Developer",
+      "company_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWjxuZx__a25hgj1JCqKkQF-6_UiqrUG7_g&s",
+      "from": "2019",
+      "to": "2021",
+      "location": "Redmond, USA"
+    }
+  ]
+  

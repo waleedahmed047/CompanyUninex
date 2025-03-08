@@ -1,0 +1,113 @@
+{
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbvYEEWx-t3tTngJpQX37te7O1hPqbtnjZnA&s",
+    "profileImage": "https://img.freepik.com/free-photo/front-view-smiley-business-man_23-2148479583.jpg?t=st=1739604526~exp=1739608126~hmac=0f45b0eeff9dda65807859286ac2b50c9251fda30859b1e3cea164898effde8f&w=1380",
+    "name": "Tech Solution",
+    "type": "Software Company",
+    "review": "100 M",
+    "employees": "100+",
+    "companyType": "Hybrid",
+    "organizationStatus": {
+        "founded": "2001",
+        "industry": "Software Company",
+        "founder": "Two",
+        "funding": "Seed Series A"
+    },
+    "officeLocations": [
+        {
+            "country": "Bangladesh",
+            "address": "Basabo, Dhaka, Bangladesh\nAhmed Bag, Hazi Tower, 1235"
+        },
+        {
+            "country": "Pakistan",
+            "address": "Basabo, Dhaka, Bangladesh\nAhmed Bag, Hazi Tower, 1235"
+        },
+        {
+            "country": "Canada",
+            "address": "Basabo, Dhaka, Bangladesh\nAhmed Bag, Hazi Tower, 1235"
+        }
+    ],
+    "about": "Tech Solution is a Software Engineer and a Tech Enthusiast. He is a self-taught Full-Stack Web Developer and a MERN Stack Developer. He is a passionate programmer and a tech enthusiast. He loves to learn new technologies and to work with them. He is a quick learner and a good team player. He is a self-motivated person and always ready to take new challenges. He is a good problem solver and a good communicator. He is a good team player and a good leader. He is a good listener and a good speaker. He is a good writer and a good reader. He is a good thinker and a good doer. He is a good learner and a good teacher. He is a good programmer and a good developer. He is a good designer and a good developer. He is a good thinker and a good doer. He is a good learner and a good teacher. He is a good programmer and a good developer. He is a good designer and a good developer. He is a good thinker and a good doer. He is a good learner and a good teacher. He is a good programmer and a good developer. He is a good designer and a good developer.",
+    "employeesList": [
+        {
+            "profileImage": "https://img.freepik.com/free-photo/handsome-businessman-posing_23-2147854042.jpg?w=1000",
+            "name": "John Doe",
+            "designation": "CEO"
+        },
+        {
+            "profileImage": "https://img.freepik.com/free-photo/young-businessman-with-glasses-suit_144627-26669.jpg?w=1000",
+            "name": "Jane Smith",
+            "designation": "CTO"
+        },
+        {
+            "profileImage": "https://img.freepik.com/free-photo/confident-businessman-posing-studio_23-2148203590.jpg?w=1000",
+            "name": "Robert Johnson",
+            "designation": "Lead Developer"
+        },
+        {
+            "profileImage": "https://img.freepik.com/free-photo/portrait-smiling-businesswoman_144627-25957.jpg?w=1000",
+            "name": "Emily Davis",
+            "designation": "Project Manager"
+        },
+        {
+            "profileImage": "https://img.freepik.com/free-photo/businessman-smiling-handsome-man-suit_144627-42941.jpg?w=1000",
+            "name": "Michael Brown",
+            "designation": "Senior UI/UX Designer"
+        }
+    ],
+    "careerList": [
+        {
+            "title": "UI/UX Designer",
+            "salary": "$900 / Month",
+            "type": "Monthly",
+            "skills": [
+                "UI",
+                "UX",
+                "Figma"
+            ],
+            "description": "We are looking for an experienced UI and UX designer...",
+            "link": "#"
+        },
+        {
+            "title": "Frontend Developer",
+            "salary": "$1200 / Month",
+            "type": "Monthly",
+            "skills": [
+                "React",
+                "JavaScript",
+                "CSS"
+            ],
+            "description": "Seeking a skilled frontend developer with experience in React...",
+            "link": "#"
+        },
+        {
+            "title": "Backend Developer",
+            "salary": "$1500 / Month",
+            "type": "Monthly",
+            "skills": [
+                "Node.js",
+                "MongoDB",
+                "GraphQL"
+            ],
+            "description": "Looking for a backend developer with expertise in Node.js and GraphQL...",
+            "link": "#"
+        }
+    ],
+    "contactInfo": [
+        {
+            "type": "Phone",
+            "value": "+1 234 567 890"
+        },
+        {
+            "type": "Email",
+            "value": "contact@techsolution.com"
+        },
+        {
+            "type": "Address",
+            "value": "1234 Tech Street, Dhaka, Bangladesh"
+        },
+        {
+            "type": "Website",
+            "value": "https://www.techsolution.com"
+        }
+    ]
+}

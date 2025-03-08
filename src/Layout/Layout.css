@@ -1,0 +1,85 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--content-bg-color) !important;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  width: 180px;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+.sidebar button {
+  font-size: 14px;
+}
+.main-component {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 10px !important;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.active-dot {
+  background-color: var(--primary-color);
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  left: -20px;
+  border-radius: 0% 50% 50% 0%;
+}
+
+.button-normal {
+  text-align: start !important;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.button-selected {
+  text-align: start;
+  background-color: var(--content-bg-color) !important;
+  border-radius: 8px;
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    display: none !important;
+  }
+}

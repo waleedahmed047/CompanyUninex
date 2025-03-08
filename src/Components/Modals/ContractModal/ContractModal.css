@@ -1,0 +1,156 @@
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  background: var(--bg-color);
+  box-shadow: 24px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.contract-duration {
+  color: var(--text-color);
+}
+/* Default label style */
+.MuiFormControlLabel-root .MuiTypography-root {
+  color: var(--text-color) !important;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.contract-modal-title {
+  text-align: center;
+  margin-bottom: 15px !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  color: var(--text-color);
+}
+.contrat-modal-detail h2 {
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.radio-group {
+  display: flex;
+  justify-content: start;
+}
+
+.dropdown {
+  min-width: 120px !important;
+  width: 100% !important;
+  font-size: 12px !important;
+  padding: 4px 8px !important;
+  height: 30px !important;
+  color: var(--text-color);
+  margin-bottom: 5px !important;
+}
+
+/* Ensure dropdown text and menu items are smaller */
+.dropdown .MuiSelect-select {
+  padding: 4px 8px !important;
+  font-size: 12px !important;
+}
+
+.dropdown .MuiOutlinedInput-root {
+  min-height: 30px !important;
+}
+
+.dropdown .MuiMenuItem-root {
+  font-size: 12px !important;
+  padding: 4px 8px !important;
+}
+
+.input-field {
+  font-size: 12px !important;
+  color: var(--text-color) !important;
+  margin-bottom: 10px !important;
+}
+
+.input-field .MuiOutlinedInput-root {
+  height: 30px !important;
+  font-size: 12px !important;
+  padding: 4px 8px !important;
+}
+
+.input-field .MuiInputBase-input {
+  padding: 4px 8px !important;
+  font-size: 12px !important;
+}
+
+.quill-editor {
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.file-upload {
+  display: flex;
+  align-items: center;
+  margin-top: 50px !important;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.file-info-data {
+  font-size: 12px !important;
+}
+.attach-file-button {
+  color: var(--primary-color) !important;
+  font-size: 12px !important;
+}
+.cancel-button {
+  border: 1px solid #fc8721 !important;
+  color: #fc8721 !important;
+  width: 200px;
+}
+.proceed-button {
+  background-color: var(--primary-color) !important;
+  box-shadow: none !important;
+  color: black !important;
+  width: 200px;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.payment-methods {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.contrat-modal-detail {
+  border: 2px dashed silver;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+.contract-modal-payment-step {
+  display: flex;
+  flex-direction: column;
+  border: 2px dashed silver;
+  border-radius: 5px;
+  padding: 10px 15px;
+  gap: 5px;
+}
+
+.contract-modal-payment-step h2 {
+  font-size: 12px;
+}
+.card-number-details {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.contained-button {
+  background-color: #0ddbff1a !important;
+  box-shadow: none !important;
+  border: 1px solid #00cef3 !important;
+}
